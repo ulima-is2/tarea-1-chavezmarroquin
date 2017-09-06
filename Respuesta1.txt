@@ -1,4 +1,4 @@
-Como encargado de CineManzada, deseo poder regristrar las peliculas y asignar los cines donde se exhibiran ya que de esta manera los usuarios estaran informados de las funciones
+Como encargado de CineManzana, deseo poder regristrar las peliculas y asignar los cines donde se exhibiran ya que de esta manera los usuarios estaran informados de las funciones
 scenario: el encargado logra registrar la funcion exitosamente
 given: el encargado tiene las credenciales necesarias
 and: el usuario se encuentre logeado
@@ -10,7 +10,7 @@ scenario: El cliente puede ver los datos de la funcion
 given: el usuario se encuentra en la web o el aplicativo mobil
 and: se encuentre logeado
 when: el cliente haga clic en la funcion
-then: apareceran datos adicionales como el cine, la horam, y el lugar
+then: apareceran datos adicionales como el cine, la hora, y el lugar
 
 Como CLIENTE, deseo poder VER LAS PELICULAS DISPONIBLES ya que de esta manera puedo escoger ir a la que mas me gusta.
 
