@@ -1,0 +1,2 @@
+Como encargado de CineManzada, deseo poder regristrar las peliculas y asignar los cines donde se exhibiran ya que de esta manera los usuarios estaran informados de las funciones
+Como cliente, deseo visualizar los datos de la entrada de la funcion a comprar entradas.
