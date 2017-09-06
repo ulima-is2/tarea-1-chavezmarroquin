@@ -1,5 +1,20 @@
 Como encargado de CineManzada, deseo poder regristrar las peliculas y asignar los cines donde se exhibiran ya que de esta manera los usuarios estaran informados de las funciones
+scenario: el encargado logra registrar la funcion exitosamente
+given: el encargado tiene las credenciales necesarias
+and: 
+when: 
+then:
+
 Como cliente, deseo visualizar los datos de la entrada de la funcion a comprar entradas.
+
+
 Como CLIENTE, deseo poder VER LAS PELICULAS DISPONIBLES ya que de esta manera puedo escoger ir a la que mas me gusta.
+
+
+
 Como CLIENTE, deseo poder VER LOS CINES DISPONIBLES POR PELICULA ya que de esta manera puedo ver cual es la mas conveniente segun mi locacion.
+
+
+
 Como ENCARGADO, deseo poder REGISTRAR NUEVOS CINES ya que de esta manera se le pueden dar mas opciones de escoger a los usuarios.
+
