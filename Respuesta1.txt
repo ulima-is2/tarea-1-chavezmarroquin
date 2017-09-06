@@ -1,9 +1,9 @@
 Como encargado de CineManzada, deseo poder regristrar las peliculas y asignar los cines donde se exhibiran ya que de esta manera los usuarios estaran informados de las funciones
 scenario: el encargado logra registrar la funcion exitosamente
 given: el encargado tiene las credenciales necesarias
-and: 
-when: 
-then:
+and: el usuario se encuentre logeado
+when: el encargado asigne una funcion a una sala de cine
+then: la funcion tendra el espacio reservado
 
 Como cliente, deseo visualizar los datos de la entrada de la funcion a comprar entradas.
 
