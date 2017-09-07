@@ -31,8 +31,8 @@ then:
 
 Como ENCARGADO, deseo poder REGISTRAR NUEVOS CINES ya que de esta manera se le pueden dar mas opciones de escoger a los usuarios.
 
-scenario: 
-given: 
-and: 
-when: 
-then: 
+scenario: El encargado quiere ingresar nuevos cines en la aplicacion
+given: El encargado se encuentra logeado correctamente
+and: el cine registrado existe
+when: usuario intente agregar el cine
+then: se actualizaran la lista de cines para que los usuarios tengan mas opciones a escoger
