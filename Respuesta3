@@ -1,24 +1,31 @@
-Caso de uso
-Actores
-Precondición
-Flujo Básico
-Flujo alterno
-Poscondición
+Caso de uso: Regristrar las peliculas y asignar los cines donde se exhibiran
+Actores: Encargado
+Precondición: Deben haberse logueado correctamente.
+Flujo Básico: El encargado ingresa a la opcion de Agregar Pelicula. El sistema verifica el usuario y le permite ingresar. 
+              El usuario ingresa el nombre, la descripcion y el poster de la pelicula. El usuario guarda los datos.
+              El sistema muestra otra pantalla para relacionar Peliculas con Cines. El usuario relaciona la nueva pelicula con todos los cines el la cual estara disponible.
+Flujo alterno: Usuario no permitido, si un usuario con perfil cliente trata de ingresar a esta opcion no le permitira continuar y se mostrara un mensaje de advertencia.
+Poscondición: El usuario crea una nueva pelicula.
 
-Caso de uso
-Actores
-Precondición
-Flujo Básico
-Flujo alterno
-Poscondición
+Caso de uso: visualizar los datos de la entrada de la funcion
+Actores: Cliente o Encargado
+Precondición: Deben haberse logueado correctamente. Haber seleccionado una pelicula
+Flujo Básico: El usuario selecciona el cine al que desea ir. 
+              El sistema muestra todas las horas disponibles en la que se proyectara la pelicula.
+              El usuario selecciona la hora y le da clic al boton de confirmar.
+              El sistema muestra los detalles de la funcion y el precio de los tickets.
+Flujo alterno: Usuario no loguead. Al dar clic en confirmar si no estas logueado se muestra una alerta que no permite comprar un ticket si es que no estas registrado.
+Poscondición: Detalle de la informacion de la funcion.
 
 
-Caso de uso
-Actores
-Precondición
-Flujo Básico
-Flujo alterno
-Poscondición
+Caso de uso: Ver peliculas disponibles
+Actores: Cliente o Encargado
+Precondición: Haber ingresado a la aplicacion
+Flujo Básico: Usuario selecciona en el menu la opcion de peliculas.
+              El sistema carga todas las peliculas disponibles en la base.
+              El usuario filtra por la opcion de Peliculas en Cartelera.
+Flujo alterno:-
+Poscondición: El sistema muestra todas las peliculas disponibles actualmente.
 
 
 Caso de uso
