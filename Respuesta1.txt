@@ -13,7 +13,6 @@ when: el cliente haga clic en la funcion
 then: apareceran datos adicionales como el cine, la hora, y el lugar
 
 Como CLIENTE, deseo poder VER LAS PELICULAS DISPONIBLES ya que de esta manera puedo escoger ir a la que mas me gusta.
-
 scenario: Ver las peliculas disponibles
 given: El usuario se encuentra en la web
 and: estar posicionado en la lista de peliculas
@@ -22,7 +21,6 @@ then: Aparecen las peliculas que estan dando actualmente en el cine
 
 
 Como CLIENTE, deseo poder VER LOS CINES DISPONIBLES POR PELICULA ya que de esta manera puedo ver cual es la mas conveniente segun mi locacion.
-
 scenario: Ver los cines disponibles
 given: El usuario se encuentra en la web
 and: Esta posicionado en la lista de cines
@@ -30,7 +28,6 @@ when: El usuario hace clic en revisar cines disponibles
 then: Aparecen los cines que estan registrado en la aplicacion
 
 Como ENCARGADO, deseo poder REGISTRAR NUEVOS CINES ya que de esta manera se le pueden dar mas opciones de escoger a los usuarios.
-
 scenario: El encargado quiere ingresar nuevos cines en la aplicacion
 given: El encargado se encuentra logeado correctamente
 and: el cine registrado existe
