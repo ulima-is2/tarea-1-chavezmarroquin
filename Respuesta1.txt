@@ -20,7 +20,7 @@ when: el usuario hace clic en revisar peliculas disponibles
 then: Aparecen las peliculas que estan dando actualmente en el cine
 
 
-Como CLIENTE, deseo poder VER LOS CINES DISPONIBLES POR PELICULA ya que de esta manera puedo ver cual es la mas conveniente segun mi locacion.
+Como CLIENTE, deseo poder VER LOS LOCALES DE CINES DISPONIBLES POR PELICULA ya que de esta manera puedo ver cual es la mas conveniente segun mi locacion.
 scenario: Ver los cines disponibles
 given: El usuario se encuentra en la web
 and: Esta posicionado en la lista de cines
