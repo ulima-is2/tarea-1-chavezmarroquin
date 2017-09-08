@@ -28,17 +28,24 @@ Flujo alterno:-
 Poscondición: El sistema muestra todas las peliculas disponibles actualmente.
 
 
-Caso de uso
-Actores
-Precondición
-Flujo Básico
-Flujo alterno
-Poscondición
+Caso de uso: Ver locales de cines disponibles por pelicula.
+Actores: Cliente o Encargado
+Precondición: Haber ingresado a la aplpicacion.
+Flujo Básico: El usuario selecciona una pelicula disponible.
+              El sistema muestra el detalle de la pelicula.
+              El usuario da clic en el boton de mostrar cines disponibles.
+              El sistema muestra todos los locales de la franquicia de cine seleccionado..
+Flujo alterno: -
+Poscondición: El usuario visualiza la lista de locales disponibles
 
 
-Caso de uso
-Actores
-Precondición
-Flujo Básico
-Flujo alterno
-Poscondición
+Caso de uso: Registrar nuevos cines
+Actores: Encargado
+Precondición: Haberse loguead al sistema correctamente.
+Flujo Básico: El usuario ingresa a la opcion de Registrar nuevo cine.
+              El sistema carga el formulario para ingresar un nuevo cine.
+              El usuario registra los datos del local y selecciona a que empresa pertenece.
+              El usuario guarda los datos del nuevo cine.
+Flujo alterno: Usuario no permitido, si un usuario con perfil cliente trata de ingresar a esta opcion no le permitira continuar y se mostrara un mensaje de advertencia.
+              Local ya existe, si se ingresa un cine con una direccion anteriormente ingresada se mostrara un mensaje de advertencia y la opcion de editar el cine referenciado.
+Poscondición: Ingreso de nuevo cine en el sistema.
